@@ -79,12 +79,30 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Profile Photo with Blob Background */}
+          {/* Profile Photo with Colorful Blob Background */}
           <div className="flex-shrink-0 relative">
-            <div className="relative">
-              {/* Animated blob background */}
-              <div className="absolute inset-0 bg-gradient-primary rounded-full animate-pulse-glow"></div>
-              <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden neumorphism">
+            <div className="relative w-80 h-80 sm:w-96 sm:h-96">
+              {/* Colorful Abstract Blobs - Behind Profile Photo */}
+              <div className="absolute inset-0 overflow-hidden">
+                {/* Bright Yellow Blob */}
+                <div className="absolute top-4 left-4 w-32 h-32 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
+                
+                {/* Turquoise Blue Blob */}
+                <div className="absolute top-8 right-6 w-28 h-28 bg-cyan-400 rounded-full mix-blend-multiply filter blur-xl opacity-75 animate-blob animation-delay-2000"></div>
+                
+                {/* Light Blue Blob */}
+                <div className="absolute bottom-6 left-8 w-36 h-36 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                
+                {/* Mint Green Blob */}
+                <div className="absolute bottom-4 right-4 w-30 h-30 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-75 animate-blob animation-delay-1000"></div>
+                
+                {/* Additional Small Accent Blobs */}
+                <div className="absolute top-1/2 left-2 w-20 h-20 bg-yellow-300 rounded-full mix-blend-multiply filter blur-lg opacity-60 animate-blob animation-delay-3000"></div>
+                <div className="absolute top-1/3 right-2 w-24 h-24 bg-teal-300 rounded-full mix-blend-multiply filter blur-lg opacity-65 animate-blob animation-delay-5000"></div>
+              </div>
+              
+              {/* Profile Photo Container */}
+              <div className="relative w-full h-full rounded-full overflow-hidden neumorphism z-10">
                 <img
                   src={profilePhoto}
                   alt="Profile"
