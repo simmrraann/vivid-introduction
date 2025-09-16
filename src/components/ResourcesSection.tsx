@@ -6,29 +6,29 @@ const ResourcesSection = () => {
   const resources = [
     {
       icon: BookOpen,
-      title: "AI & Machine Learning Guide",
-      description: "A comprehensive guide to getting started with AI and machine learning fundamentals.",
-      type: "Blog Post",
-      date: "March 15, 2024",
-      readTime: "8 min read",
-      downloadUrl: "#"
+      title: "Engineering Study Notes",
+      description: "Well-organized Notion notes covering key engineering subjects with simplified explanations and examples for quick revision.",
+      type: "Notes",
+      date: "Updated Regularly",
+      readTime: "Study Material",
+      downloadUrl: "https://www.notion.so/5th-SEM-23feadaab1de801dba82c7e0a7be36c7?source=copy_link"
     },
     {
       icon: Video,
-      title: "Web Development Tutorial Series",
-      description: "Step-by-step video tutorials covering modern web development practices and frameworks.",
-      type: "Video Series",
-      date: "February 28, 2024",
-      readTime: "45 min watch",
+      title: "n8n Agent Basics Guide",
+      description: "Beginner-friendly notes on how n8n works, with examples of building automation workflows and Telegram integrations.",
+      type: "Tutorial",
+      date: "Coming Soon",
+      readTime: "Tutorial Series",
       downloadUrl: "#"
     },
     {
       icon: Download,
-      title: "Free Design System Template",
-      description: "A complete design system template with components, tokens, and documentation.",
-      type: "Template",
-      date: "February 10, 2024",
-      readTime: "Download",
+      title: "AI & Automation Resources",
+      description: "Curated collection of my notes and references on AI automation, workflows, and project building.",
+      type: "Collection",
+      date: "Growing Collection",
+      readTime: "Resource Hub",
       downloadUrl: "#"
     },
   ];
