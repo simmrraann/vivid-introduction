@@ -40,11 +40,11 @@ const HeroSection = () => {
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold mb-6 leading-tight">
               <span className="block text-foreground">Hey, I'm</span>
-              <span className="block gradient-text">[Your Name]!</span>
+              <span className="block gradient-text">SIMRAN!</span>
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              I'm an <span className="text-primary font-medium">AI & Data Science student</span>, aspiring entrepreneur, and <span className="text-accent font-medium">content creator</span>.
+              I'M AN <span className="text-primary font-medium">AI & DATA SCIENCE STUDENT</span>, PASSIONATE ABOUT <span className="text-accent font-medium">AGENTS AND AUTOMATION WORKFLOWS</span>.
             </p>
 
             {/* CTA Buttons */}
