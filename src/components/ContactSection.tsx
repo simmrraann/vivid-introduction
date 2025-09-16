@@ -36,20 +36,20 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@yourname.com",
-      href: "mailto:hello@yourname.com"
+      value: "simmraannsinghh@gmail.com",
+      href: "mailto:simmraannsinghh@gmail.com"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Your City, Country",
+      value: "Nashik, India",
       href: "#"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 8999393617",
+      href: "tel:+918999393617"
     }
   ];
 
