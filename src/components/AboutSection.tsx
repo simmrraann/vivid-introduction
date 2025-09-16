@@ -15,13 +15,13 @@ const AboutSection = () => {
     },
     {
       icon: Rocket,
-      title: "Entrepreneur",
-      description: "Turning ideas into reality with a focus on solving real-world problems."
+      title: "Machine Learning",
+      description: "Applying advanced algorithms and statistical models to solve complex problems and extract insights from data."
     },
     {
       icon: Heart,
-      title: "Content Creator",
-      description: "Sharing knowledge and experiences through blogs, tutorials, and social media."
+      title: "AI Automation",
+      description: "Building intelligent automation workflows and agents that streamline processes and enhance productivity."
     }
   ];
 
