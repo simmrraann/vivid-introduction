@@ -67,14 +67,18 @@ const HeroSection = () => {
 
             {/* Social Links */}
             <div className="flex justify-center lg:justify-start space-x-6">
-              <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl">
-                <Github className="h-6 w-6" />
+              <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl" asChild>
+                <a href="https://github.com/simmrraann" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-6 w-6" />
+                </a>
               </Button>
               <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl">
                 <Linkedin className="h-6 w-6" />
               </Button>
-              <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl">
-                <Mail className="h-6 w-6" />
+              <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl" asChild>
+                <a href="mailto:simmraannsinghh@gmail.com">
+                  <Mail className="h-6 w-6" />
+                </a>
               </Button>
             </div>
           </div>
