@@ -76,7 +76,7 @@ const HeroSection = () => {
                 <Linkedin className="h-6 w-6" />
               </Button>
               <Button variant="ghost" size="sm" className="hover-glow p-3 rounded-xl" asChild>
-                <a href="mailto:simmraannsinghh@gmail.com">
+                <a href="https://mail.google.com/mail/?view=cm&to=simmraannsinghh@gmail.com" target="_blank" rel="noopener noreferrer">
                   <Mail className="h-6 w-6" />
                 </a>
               </Button>
