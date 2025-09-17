@@ -99,27 +99,6 @@ const ResourcesSection = () => {
               </Card>
             ))}
           </div>
-
-          <div className="text-center">
-            <Card className="glass neumorphism border-0 p-8 max-w-2xl mx-auto">
-              <CardContent className="p-0">
-                <div className="text-4xl mb-4">📚</div>
-                <h3 className="text-2xl font-display font-semibold text-foreground mb-4">
-                  Want More Resources?
-                </h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Subscribe to my newsletter to get notified when I publish new tutorials, 
-                  resources, and insights about AI, development, and entrepreneurship.
-                </p>
-                <Button 
-                  size="lg" 
-                  className="bg-gradient-accent text-primary-foreground hover-glow font-medium px-8 py-6 text-lg rounded-2xl"
-                >
-                  Subscribe to Newsletter
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
