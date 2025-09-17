@@ -27,6 +27,7 @@ const ProjectsSection = () => {
       image: "🧠",
       liveUrl: "#",
       githubUrl: "#",
+      status: "under-construction",
     },
   ];
 
@@ -51,9 +52,16 @@ const ProjectsSection = () => {
               </div>
               
               <CardHeader className="p-6">
-                <CardTitle className="text-xl font-display font-semibold text-foreground">
-                  {project.title}
-                </CardTitle>
+                <div className="flex items-start justify-between mb-2">
+                  <CardTitle className="text-xl font-display font-semibold text-foreground">
+                    {project.title}
+                  </CardTitle>
+                  {project.status === "under-construction" && (
+                    <span className="px-3 py-1 text-xs font-medium bg-orange-500/10 text-orange-500 rounded-full border border-orange-500/20">
+                      Under Construction
+                    </span>
+                  )}
+                </div>
                 <CardDescription className="text-muted-foreground leading-relaxed">
                   {project.description}
                 </CardDescription>
@@ -78,22 +86,35 @@ const ProjectsSection = () => {
                     variant="outline"
                     size="sm"
                     className="flex-1 glass hover-glow border-primary/20"
-                    asChild
+                    disabled={project.status === "under-construction"}
+                    asChild={project.status !== "under-construction"}
                   >
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
-                    </a>
+                    {project.status === "under-construction" ? (
+                      <>
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Under Construction
+                      </>
+                    ) : (
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Live Demo
+                      </a>
+                    )}
                   </Button>
                   <Button
                     variant="ghost"
                     size="sm"
                     className="px-4 hover-glow"
-                    asChild
+                    disabled={project.status === "under-construction"}
+                    asChild={project.status !== "under-construction"}
                   >
-                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    {project.status === "under-construction" ? (
                       <Github className="w-4 h-4" />
-                    </a>
+                    ) : (
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="w-4 h-4" />
+                      </a>
+                    )}
                   </Button>
                 </div>
               </CardContent>
