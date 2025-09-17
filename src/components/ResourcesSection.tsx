@@ -20,16 +20,16 @@ const ResourcesSection = () => {
       type: "Tutorial",
       date: "Coming Soon",
       readTime: "Tutorial Series",
-      downloadUrl: "#"
+      downloadUrl: "https://www.notion.so/N8N-notes-271eadaab1de802a99d1ce62dcea967a?source=copy_link"
     },
     {
       icon: Download,
-      title: "AI & Automation Resources",
+      title: "AI Tools",
       description: "Curated collection of my notes and references on AI automation, workflows, and project building.",
       type: "Collection",
       date: "Growing Collection",
       readTime: "Resource Hub",
-      downloadUrl: "#"
+      downloadUrl: "https://www.notion.so/Ai-tools-243eadaab1de80b08ab6cde6e8dad26c?source=copy_link"
     },
   ];
 
