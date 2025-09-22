@@ -44,7 +44,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              I'M AN <span className="text-primary font-medium">AI & DATA SCIENCE STUDENT</span>, PASSIONATE ABOUT <span className="text-accent font-medium">AGENTS AND AUTOMATION WORKFLOWS</span>.
+              I'm an <span className="text-primary font-medium">AI & Data Science student</span> passionate about <span className="text-accent font-medium">Agents and Automation Workflows</span>.
             </p>
 
             {/* CTA Buttons */}

@@ -34,8 +34,7 @@ const AboutSection = () => {
               About Me
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm a curious mind who loves to learn, create, and share. Currently pursuing my degree in 
-              AI & Data Science while building projects and sharing my journey with others.
+              I'm a Third year student loves to learn, create, and share while building projects and sharing my journey with others.
             </p>
           </div>
 
